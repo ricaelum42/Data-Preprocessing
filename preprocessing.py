@@ -43,9 +43,6 @@ class data_preprocess:
         
         if self.X_test is not None:
             self.X_test[temp.columns] = imp.transform(self.X_test[temp.columns])
-            
-    def fill_outlier(self, columns=None):
-        if columns is None:
-            temp = 
+
             
         
